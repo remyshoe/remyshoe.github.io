@@ -74,7 +74,7 @@ end
 | Keyword      | Contents          |
 |:-------------|:------------------|
 | AC voltage and frequency | good swedish fish |
-| github hosts | good and plenty   |
+| github hosts | Check https://github.com.ipaddress.com/#ipinfo and replace C:\Windows\System32\drivers\etc\hosts with the latest IPs. |
 
 ### There's a horizontal rule below this.
 
