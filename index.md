@@ -71,12 +71,10 @@ end
 
 ###### Header 6
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| Keyword      | Contents          |
+|:-------------|:------------------|
+| AC voltage and frequency | good swedish fish |
+| github hosts | good and plenty   |
 
 ### There's a horizontal rule below this.
 
