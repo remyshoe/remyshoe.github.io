@@ -19,6 +19,6 @@ _[Inkscape](https://inkscape.org/) • 开源矢量作图工具_
 [Q-Dir](http://q-dir.com/) • Windows多窗口工具  
 [vdhcoapp](https://github.com/mi-g/vdhcoapp) • Audio/Video DownloadHelper browser add-on  
 [XMind](https://www.xmind.cn/) • 思维导图工具  
-[蜜蜂剪辑](https://beecut.cn/video-to-gif-onlinec) • 在线视频转换成GIF动画  
+[蜜蜂剪辑](https://beecut.cn/video-to-gif-online) • 在线视频转换成GIF动画  
 
 ##### 特别鸣谢
