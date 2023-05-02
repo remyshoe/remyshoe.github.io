@@ -15,6 +15,7 @@ layout: default
 | Sensitivity, PPV | - Sensitivity=TP/(TP+FN) 敏感性：真病人中能检出多少 <br> - Precision or PPV=TP/(TP+FP) 精确度：检出阳性病人中有多少真病人 <br> - Specificity=TN/(TN+FP) 特异性：检出阴性病人在所有没病人中所占的比例 [(公式)](https://geekymedics.com/sensitivity-specificity-ppv-and-npv/) <br> - Accuracy=(TP+TN)/(TP+TN+FP+FN) 准确率：整体无论正负预测都包含的准确率 |
 | Time AM/PM | 12-hour clock should be 1-12 for both AM and PM. PM starts at noon. <br> eg. <u>12:33:45AM is 00:33:45 (midnight)</u>; 12:33:45PM is 12:33:45 (noon) |
 | WLAN Country Code | [WiFi Country Code](https://gitlab.com/recalbox/github/recalbox-os/-/wikis/Wifi%20country%20code%20(EN)); [WLAN Fequency Bands & Channels](https://www.cablefree.net/wirelesstechnology/wireless-lan/wlan-frequency-bands-channels/) |
+| 心电 | ECG 12导联计算公式: I=LA-RA, II=LL-RA, III=II-I; <br> aVL=LA-(RA+LL)/2, aVF=LL-(RA+LA)/2, aVR=RA-(LA+LL)/2; <br> Vw=(LA+LL+RA)/3, V1..V6=V1..V6-Vw |
 
 * * *
 
