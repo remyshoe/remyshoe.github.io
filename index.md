@@ -15,7 +15,8 @@ layout: default
 | Sensitivity, PPV | - Sensitivity=TP/(TP+FN) 敏感性：真病人中能检出多少 <br> - Precision or PPV=TP/(TP+FP) 精确度：检出阳性病人中有多少真病人 <br> - Specificity=TN/(TN+FP) 特异性：检出阴性病人在所有没病人中所占的比例 [(公式)](https://geekymedics.com/sensitivity-specificity-ppv-and-npv/) <br> - Accuracy=(TP+TN)/(TP+TN+FP+FN) 准确率：整体无论正负预测都包含的准确率 |
 | Time AM/PM | 12-hour clock should be 1-12 for both AM and PM. PM starts at noon. <br> eg. <u>12:33:45AM is 00:33:45 (midnight)</u>; 12:33:45PM is 12:33:45 (noon) |
 | WLAN Country Code | [WiFi Country Code](https://gitlab.com/recalbox/github/recalbox-os/-/wikis/Wifi%20country%20code%20(EN)); [WLAN Fequency Bands & Channels](https://www.cablefree.net/wirelesstechnology/wireless-lan/wlan-frequency-bands-channels/) |
-| 心电 | ECG 12导联计算公式: I=LA-RA, II=LL-RA, III=II-I; <br> aVL=LA-(RA+LL)/2, aVF=LL-(RA+LA)/2, aVR=RA-(LA+LL)/2; <br> Vw=(LA+LL+RA)/3, V1..V6=V1..V6-Vw |
+| - 心电专题 - | ECG 12导联计算公式: I=LA-RA, II=LL-RA, III=II-I; <br> aVL=LA-(RA+LL)/2, aVF=LL-(RA+LA)/2, aVR=RA-(LA+LL)/2; <br> Vw=(LA+LL+RA)/3, V1..V6=V1..V6-Vw |
+| - Excel公式模板 - | - 公式-Date数据(K2格)提取年和月组合显示 =IF(AB2="No", TEXT(K2, "YYYY")&"-"&TEXT(K2, "M"), "Invalid") <br> - 公式-Date数据(K2格)判断是否在一定范围内 =IF(AND(K2>=DATE(2023,2,1), K2<=DATE(2023,2,28), AB2="No"), "Yes", "No") <br> - 公式-INDIRECT函数获取C列最后一行的值 =SUM(C4:C6)/INDIRECT("C"&COUNTA(A:A)+1) (注:Pivot表的最后一行统计行算不进COUNTA的表格有效行数所以要+1; 收藏照片235X) <br> - 公式-判断数据(Z2格)是否包含某个字符并截取其左边的字符串 =IF(COUNTIF(Z2, "*-*")>0, LEFT(Z2, SEARCH("-",Z2)-1), " "&Z2 ) (收藏照片2362) <br> - Pivot Table数据透视表: >Insert >Pivot Table, 选New Sheet创建; 点中Pivot表中任一单元格右击对该列排序.(收藏照片235V) <br> - Pareto帕累托图选项在直方图中. <br> |
 
 * * *
 
