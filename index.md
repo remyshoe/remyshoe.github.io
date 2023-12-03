@@ -30,7 +30,7 @@ layout: default
 _[EV录屏](https://www.ieway.cn/index.html) • 桌面录屏工具_  
 [Format Factory(格式工厂)](http://www.pcfreetime.com/) • 音视频转换工具  
 _[Inkscape](https://inkscape.org/) • 开源矢量作图工具_  
-[MP3Tag](https://www.mp3tag.de/en/) • MP3音频文件属性批量修改 
+[MP3Tag](https://www.mp3tag.de/en/) • MP3音频文件属性批量修改  
 [Q-Dir](http://q-dir.com/) • Windows多窗口工具  
 [ScreenToGif](https://www.screentogif.com/) • Gif录制/剪辑工具  
 [vdhcoapp](https://github.com/mi-g/vdhcoapp) • Audio/Video DownloadHelper browser add-on  
