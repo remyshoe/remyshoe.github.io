@@ -26,7 +26,7 @@ layout: default
 * * *
 
 #### 工具官网
-!(https://pic.imge.cc/2024/07/15/66951f75e13cd.jpg)[Everything](https://www.voidtools.com) • 本地文件搜索工具  
+!(https://pic.imge.cc/2024/07/15/66951f75e13cd.jpg) [Everything](https://www.voidtools.com) • 本地文件搜索工具  
 _[EV录屏](https://www.ieway.cn/index.html) • 桌面录屏工具_  
 [Format Factory(格式工厂)](http://www.pcfreetime.com/) • 音视频转换工具  
 _[Inkscape](https://inkscape.org/) • 开源矢量作图工具_  
